@@ -11,14 +11,6 @@ namespace ChartJs.Blazor.ChartJS.LineChart
     public class LineChartData
     {
         /// <summary>
-        /// Creates a new instance of <see cref="LineChartData"/>
-        /// </summary>
-        public LineChartData()
-        {
-            Datasets = new HashSet<IMixableDataset<object>>();
-        }
-
-        /// <summary>
         /// The labels the chart will use. 
         /// <para>If defined (not null) the x-Axis has to be of type <see cref="Common.Enums.AxisType.Category"/> for the chart to work correctly.</para>
         /// </summary>
@@ -41,6 +33,6 @@ namespace ChartJs.Blazor.ChartJS.LineChart
         /// <summary>
         /// The Datasets displayed in this chart.
         /// </summary>
-        public HashSet<IMixableDataset<object>> Datasets { get; }
+        public HashSet<IMixableDataset<object>> Datasets { get; } = new HashSet<IMixableDataset<object>>();
     }
 }
