@@ -43,12 +43,14 @@
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.BarChart.Dataset.BarChartDataset`1.BackgroundColor">
             <summary>
-            The fill color of the bar
+            The fill color of the bar.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.BarChart.Dataset.BarChartDataset`1.BorderColor">
             <summary>
             The color of the bar border.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.BarChart.Dataset.BarChartDataset`1.BorderWidth">
@@ -59,11 +61,13 @@
         <member name="P:ChartJs.Blazor.ChartJS.BarChart.Dataset.BarChartDataset`1.HoverBackgroundColor">
             <summary>
             The fill color of the bars when hovered.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.BarChart.Dataset.BarChartDataset`1.HoverBorderColor">
             <summary>
             The stroke color of the bars when hovered.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.BarChart.Dataset.BarChartDataset`1.HoverBorderWidth">
@@ -118,12 +122,14 @@
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.BarChart.Dataset.IndividualBarChartDataset`1.BackgroundColor">
             <summary>
-            The fill color of the bar
+            The fill color of the bar.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.BarChart.Dataset.IndividualBarChartDataset`1.BorderColor">
             <summary>
             The color of the bar border.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.BarChart.Dataset.IndividualBarChartDataset`1.BorderWidth">
@@ -134,11 +140,13 @@
         <member name="P:ChartJs.Blazor.ChartJS.BarChart.Dataset.IndividualBarChartDataset`1.HoverBackgroundColor">
             <summary>
             The fill color of the bars when hovered.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.BarChart.Dataset.IndividualBarChartDataset`1.HoverBorderColor">
             <summary>
             The stroke color of the bars when hovered.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.BarChart.Dataset.IndividualBarChartDataset`1.HoverBorderWidth">
@@ -148,17 +156,29 @@
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.BubbleChart.BubbleChartDataset.BackgroundColor">
             <summary>
-            rgba(0,0,0,0.1)'
+            rgba(0,0,0,0.1)'.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.BubbleChart.BubbleChartDataset.BorderColor">
             <summary>
-            rgba(0,0,0,0.1)'
+            rgba(0,0,0,0.1)'.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.BubbleChart.BubbleChartDataset.BorderWidth">
             <summary>
             Default 3
+            </summary>
+        </member>
+        <member name="P:ChartJs.Blazor.ChartJS.BubbleChart.BubbleChartDataset.HoverBackgroundColor">
+            <summary>
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
+            </summary>
+        </member>
+        <member name="P:ChartJs.Blazor.ChartJS.BubbleChart.BubbleChartDataset.HoverBorderColor">
+            <summary>
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.BubbleChart.BubbleChartDataset.Label">
@@ -627,7 +647,7 @@
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.Common.Legends.OnClickHandler.DotNetInstanceClickHandler.InstanceRef">
             <summary>
-            The <see cref="T:Microsoft.JSInterop.DotNetObjectRef"/> for the instance the delegate will be executed on.
+            The <see cref="!:DotNetObjectRef"/> for the instance the delegate will be executed on.
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.Common.Legends.OnClickHandler.DotNetInstanceClickHandler.MethodName">
@@ -701,7 +721,7 @@
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.Common.Legends.OnHover.DotNetInstanceHoverHandler.InstanceRef">
             <summary>
-            The <see cref="T:Microsoft.JSInterop.DotNetObjectRef"/> for the instance the delegate will be executed on.
+            The <see cref="!:DotNetObjectRef"/> for the instance the delegate will be executed on.
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.Common.Legends.OnHover.DotNetInstanceHoverHandler.MethodName">
@@ -1676,6 +1696,7 @@
         <member name="P:ChartJs.Blazor.ChartJS.PieChart.PieChartDataset.BackgroundColor">
             <summary>
             Gets the fill color of the arcs in the dataset.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.PieChart.PieChartDataset.BorderAlign">
@@ -1687,6 +1708,7 @@
         <member name="P:ChartJs.Blazor.ChartJS.PieChart.PieChartDataset.BorderColor">
             <summary>
             Gets the border color of the arcs in the dataset.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.PieChart.PieChartDataset.BorderWidth">
@@ -1697,11 +1719,13 @@
         <member name="P:ChartJs.Blazor.ChartJS.PieChart.PieChartDataset.HoverBackgroundColor">
             <summary>
             Gets the fill colour of the arcs when hovered.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.PieChart.PieChartDataset.HoverBorderColor">
             <summary>
             Gets the stroke colour of the arcs when hovered.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.PieChart.PieChartDataset.HoverBorderWidth">
@@ -1754,12 +1778,14 @@
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.PolarAreaChart.PolarAreaDataset.BackgroundColor">
             <summary>
-            The fill color of the arcs in the dataset. 
+            The fill color of the arcs in the dataset.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.PolarAreaChart.PolarAreaDataset.BorderColor">
             <summary>
-            The border color of the arcs in the dataset
+            The border color of the arcs in the dataset.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.PolarAreaChart.PolarAreaDataset.BorderWidth">
@@ -1770,11 +1796,13 @@
         <member name="P:ChartJs.Blazor.ChartJS.PolarAreaChart.PolarAreaDataset.HoverBackgroundColor">
             <summary>
             The fill colour of the arcs when hovered.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.PolarAreaChart.PolarAreaDataset.HoverBorderColor">
             <summary>
             The stroke colour of the arcs when hovered.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.PolarAreaChart.PolarAreaDataset.HoverBorderWidth">
@@ -1795,11 +1823,13 @@
         <member name="P:ChartJs.Blazor.ChartJS.RadarChart.RadarChartDataset.BackgroundColor">
             <summary>
             The fill color under the line.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.RadarChart.RadarChartDataset.BorderColor">
             <summary>
-            The color of the line
+            The color of the line.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.RadarChart.RadarChartDataset.BorderWidth">
@@ -1842,11 +1872,13 @@
         <member name="P:ChartJs.Blazor.ChartJS.RadarChart.RadarChartDataset.PointBackgroundColor">
             <summary>
             The fill color for points.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.RadarChart.RadarChartDataset.PointBorderColor">
             <summary>
             The border color for points.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.RadarChart.RadarChartDataset.PointBorderWidth">
@@ -1877,11 +1909,13 @@
         <member name="P:ChartJs.Blazor.ChartJS.RadarChart.RadarChartDataset.PointHoverBackgroundColor">
             <summary>
             Point background color when hovered.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.RadarChart.RadarChartDataset.PointHoverBorderColor">
             <summary>
             Point border color when hovered.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.RadarChart.RadarChartDataset.PointHoverBorderWidth">
@@ -1989,11 +2023,13 @@
         <member name="P:ChartJs.Blazor.ChartJS.ScatterChart.ScatterChartDataset.BackgroundColor">
             <summary>
             The fill color under the line.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="P:ChartJs.Blazor.ChartJS.ScatterChart.ScatterChartDataset.BorderColor">
             <summary>
             The color of the line.
+            <para>See <see cref="T:ChartJs.Blazor.Util.Color.ColorUtil"/> for working with colors.</para>
             </summary>
         </member>
         <member name="T:ChartJs.Blazor.Util.Color.ColorUtil">
